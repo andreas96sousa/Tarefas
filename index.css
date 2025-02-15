@@ -1,0 +1,53 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+    background-color: black;
+    width: 98.5%;
+    height: 100%;
+    text-align: center;
+}
+.logo-home1{
+    filter: invert(0.85);
+    width: 120px;
+    float: left;
+    
+}
+.logo-home2{
+    filter: invert(0.85);
+    width: 120px;
+    float: right;
+}
+hr{
+    clear: both;
+}
+header{
+    margin-top: 0;
+    padding: 0%;
+}
+#texto{
+    text-align: center;
+    display: flexbox;
+    align-content: center;
+}
+main{
+    margin: 5% 25%;
+}
+.container-login{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 5px 0px 65px 0px;
+}
+
+.container-login > .formulario > h2{
+    font-size: 2.5rem;
+    margin-bottom: 1.5em;
+}
+#login, #pass{
+    margin-bottom: 1.5em;
+    text-align: end;
+
+}
+.container-loginform{
+    margin: 0% 30% 0% 30%;
+
+}
