@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
 #insta, #face, #github, #youtube, #linkedin{
     width: 20px;
     border-radius: 2px;
+
 }    
 #minhafoto{
-    width: 200px;
+    width: 150px;
     border: solid;
     border-color: blueviolet;
     border-width: 5px;
@@ -15,20 +18,25 @@ li{
 a{
     text-decoration: none;
 }
+body{
+ font-family: Saira;
+ color: blueviolet;
+ background-color: rgb(66, 66, 66);
+}
 main, header, footer{
-    background-color: aquamarine;
     width: 50%;
     left: 25%;
     position: relative;
     height: auto;
-}
-header{
     text-align: center;
+    margin-bottom: 60px;
+}
+header, footer{
     margin-top: -21px;
-}
-main > h2, .containerprafotodeperfil{
-    text-align: center;
-    width: 100%;
+    margin-bottom: -15px;
+    background-color: black;
+    width: 0100%;
+    left: 0px;
 }
 main > p{
     text-align: justify;
@@ -36,8 +44,20 @@ main > p{
     position: relative;
     left: 5%;
 }
-footer{
-    margin-bottom: -15px;
-    text-align: center;
+main > ol{
+    align-items: center;
+    width: 85%;
+    position: relative;
+    display: inline-flex;
+}
+main > ol > li{
+    align-items: normal;
+    padding: 5px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    margin: 2px;
+    font-family: Saria;
+    background-color: white;
+    height: 25px;
 }
 
