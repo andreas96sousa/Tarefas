@@ -1,0 +1,27 @@
+main{
+    width: 30%;
+    background-color: yellow;
+    position: relative;
+    bottom: 0px;
+    left: 35%;
+    text-align: center;
+    margin-top: 40px;
+}
+footer{
+    background-color: rgb(255, 100, 100);
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 1px;
+    text-align: center;
+}
+header{
+    width: 80%;
+    text-align: center;
+    position: relative;
+    left: 10%;
+
+}
+img{
+    width: 100px;
+}
