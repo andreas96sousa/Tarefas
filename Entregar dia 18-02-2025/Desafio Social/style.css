@@ -1,0 +1,43 @@
+#insta, #face, #github, #youtube, #linkedin{
+    width: 20px;
+    border-radius: 2px;
+}    
+#minhafoto{
+    width: 200px;
+    border: solid;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-radius: 100%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+main, header, footer{
+    background-color: aquamarine;
+    width: 50%;
+    left: 25%;
+    position: relative;
+    height: auto;
+}
+header{
+    text-align: center;
+    margin-top: -21px;
+}
+main > h2, .containerprafotodeperfil{
+    text-align: center;
+    width: 100%;
+}
+main > p{
+    text-align: justify;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+footer{
+    margin-bottom: -15px;
+    text-align: center;
+}
+
