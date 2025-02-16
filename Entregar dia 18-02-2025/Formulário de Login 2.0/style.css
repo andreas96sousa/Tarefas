@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    margin: 0px auto;
+    font-family: "Exo 2";
+    padding: 25px;
+    max-width: 1200px;
+    background-color: rgb(24, 4, 43);
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 25px;
+    h1{
+        font-size: 40px;
+    }
+}
+.carlos{
+    color: rgb(226, 43, 104);
+}
+.andreas{
+    color: rgb(0, 119, 255);
+}
+li{
+    display: inline-block;
+    padding: 0px 45px;
+    transition: 0.5;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+a:hover{
+    transition: 0.5s;
+    color: rgb(226, 43, 104);
+}
+.contato-enfase{
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(226, 43, 104);
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+.contato-enfase:hover{
+    transition: 0.5;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border: 2px solid rgb(0, 119, 255);
+}
+.logo-title{
+    line-height: 10px;
+    text-align: end;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    margin: 50px 35px 50px 0px;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    .inscreva-se{
+        line-height: 10px;
+        h2{
+            font-size: 30px;
+        }
+    }
+    p{
+        font-size: 18px;
+        font-weight: 200;
+        margin-top: 10px;
+    }
+}
+article{
+    width: 50%;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    img{
+        height: 450px;
+    }
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 70%;
+    margin-top: 15px;
+}
+
+input{
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 35px;
+}
+#button-inscreva-se{
+    cursor: pointer;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+#button-inscreva-se:hover{
+    background-color: rgb(226, 43, 104);
+    transition: 0.3s;
+}
+
+footer{
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    text-align: center;
+    background-color: rgb(226, 43, 104);
+    border-radius: 5px;
+}

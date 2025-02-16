@@ -1,0 +1,51 @@
+@media screen and (max-width: 450px) {
+    body{
+        background-color: rgb(24, 4, 43);;
+        padding: 10px;
+    }
+    header{
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        .logo-title{
+            text-align: center;
+        }
+        h1{
+            font-size: 30px;
+        }
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+
+    }
+    li{
+        display: flex;
+        flex-direction: column;
+        padding: 5% 5px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    aside{
+        width: 100%;
+    }
+    form{
+        width: 95%;
+        margin-bottom: 50px;
+    }
+    footer{
+        bottom: 0;
+        right: 80px;
+        border-radius: 5px;
+    }
+    article{
+        display: none;
+    }
+
+}
