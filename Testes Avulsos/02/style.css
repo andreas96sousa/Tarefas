@@ -6,7 +6,7 @@ html {
 
 body {
   color: white;
-  background: linear-gradient(288deg, rgb(255, 166, 0) 0%, rgb(236, 248, 194) 50%, rgb(255, 181, 20) 100%);
+  background: linear-gradient(200deg, rgb(130, 11, 141) 0%, rgb(28, 148, 138) 50%, rgb(117, 22, 113) 100%);
   margin: 0px auto;
   max-width: 1360px;
   display: flex;
@@ -64,18 +64,19 @@ a:hover {
 }
 
 main{
-    margin-top: 130px;
+    margin-top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 90%;
 }
 aside{
+  text-align: center;
     width: 40%;
 }
 #imagem-principal{
-    width: 500px;
-    filter: drop-shadow(0px 0px 25px rgb(255, 255, 255));
+    width: 350px;
+    filter: drop-shadow(0px 0px 25px rgb(160, 59, 0));
     
 }
 article{
@@ -83,4 +84,51 @@ article{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    p{
+      text-align: end;
+      font-weight: 700;
+    }
+}
+.title-article1{
+  line-height: 5px;
+  text-align: end;
+  font-size: 1.5rem;
+  .title1{
+    color: rgb(170, 0, 0);
+    filter: drop-shadow(0px 0px 10px rgb(198, 99, 255));
+  }
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 90%;
+  input{
+    border: none;
+    margin: 10px 0px;
+    min-width: 70%;
+    padding: 10px;
+    border-radius: 40px;
+  }
+  #btn-cadastrar{
+    border: none;
+    color: white;
+    font-family: "Exo 2";
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    background-color: rgb(170, 0, 0);
+    border-radius: 40px;
+}
+  #btn-cadastrar:hover{
+    background-color: rgb(87, 0, 0);
+    cursor: pointer;
+}
+}
+footer{
+  text-align: center;
+  font-weight: 700;
+  margin-top: 47px;
+  position: relative;
+  bottom: 5px;
 }
