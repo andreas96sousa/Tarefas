@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-family: "Exo 2";
+}
+
+body{
+    color: white;
+    background-color: rgb(230, 260, 40);
+    margin: 0px;
+    max-width: 1360px;
+}
+header{
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    padding: 0;
+    background-color: rgb(40, 250, 200);
+    list-style: none;
+}
+li{
+    margin: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: inline-block;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(red, green, blue);
+    text-decoration: underline;
+}
+.void{
+    width: 25%;
+}
