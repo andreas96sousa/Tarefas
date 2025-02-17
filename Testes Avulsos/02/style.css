@@ -33,8 +33,12 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: rgb(red, green, blue);
-    text-decoration: underline;
+    border-bottom: 3px;
+    border-left: 0px; 
+    border-right: 0px; 
+    border-top: 0px;
+    border-style: solid;
+    border-color: rgb(230, 260, 40);
 }
 .void{
     width: 25%;
