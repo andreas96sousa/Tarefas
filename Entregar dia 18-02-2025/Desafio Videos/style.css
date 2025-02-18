@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  font-family: "Exo 2";
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 20px;
+  color: white;
+  background-color: rgb(29, 0, 95);
+}
+header{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+hr {
+  width: 100%;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  width: 60%;
+  background-color: rgb(217, 197, 255);
+  padding: 15px;
+  border-radius: 20px;
+  margin: 7px;
+}
+li {
+  padding: 15px;
+}
+a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 8px;
+  text-decoration: none;
+  color: rgb(29, 0, 95);
+  border-radius: 33px;
+
+}
+a:hover {
+  background-color: rgb(237, 221, 255);
+  border-radius: 33px;
+  transition: 0.3s;
+
+}
+img {
+  width: 300px;
+  height: 170px;
+  border-radius: 25px;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 5px;
+  margin-top: 74px;
+}
+
+.buttons-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    a{
+        color: rgb(237, 221, 255);
+        display: flex;
+        flex-direction: row;
+        margin-top: 25px;
+        padding: 5px 20px;
+    }
+    a:hover{
+        color: black;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
+
+.buttons{
+    width: 35px;
+    height: auto;
+}
