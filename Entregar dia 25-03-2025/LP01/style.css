@@ -1,0 +1,13 @@
+body{
+    width: 100%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+svg{
+    width: 76%;
+    margin: 0 auto;
+    fill:#007D5E;
+}
