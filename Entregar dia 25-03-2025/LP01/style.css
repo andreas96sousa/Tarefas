@@ -1,13 +1,12 @@
 body{
     width: 100%;
+    margin: 0px;
 }
 header{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+    position: absolute;
+    top: 0;
 }
 svg{
-    width: 76%;
-    margin: 0 auto;
+    margin: 0 12%;
     fill:#007D5E;
 }
