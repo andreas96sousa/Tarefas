@@ -1,12 +1,99 @@
-body{
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
     width: 100%;
-    margin: 0px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Exo 2";
+
 }
-header{
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    justify-content: space-between;
+
+    #title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4em;
+        width: 50%;
+        font-size: 1.2em;
+        h1{
+            margin: 0;
+            font-weight: 700;
+        }
+        h3{
+            font-weight: 400;
+            margin: 15px;
+            font-size: 1em;
+            width: 70%;
+            text-align: center;
+
+        }
+    }
+}
+
+#logo-principal {
+    width: 10%;
+    position: absolute;
+    top: 15px;
+}
+
+svg {
+    padding: 0;
+    margin: 0px;
+    fill: #007D5E;
+    width: 80%;
+    height: auto;
+    position: relative;
     top: 0;
 }
-svg{
-    margin: 0 12%;
-    fill:#007D5E;
+.start{
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+
+}
+#email{
+    width: 70%;
+    margin: 0px 5px;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+}
+#trial-button{
+    width: 30%;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+#trial-button:hover{
+    box-shadow: 0px 0px 25px white;
+}
+.p-top{
+    width: 70%;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: -10px
 }
