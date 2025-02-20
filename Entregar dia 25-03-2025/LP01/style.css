@@ -15,6 +15,9 @@ header {
     flex-direction: column;
     align-items: center;
     color: white;
+    position: relative;
+    justify-content: space-between;
+    height: auto;
 }
 
 .header {
@@ -23,43 +26,41 @@ header {
     align-items: center;
     position: absolute;
     width: 100%;
-    height: 100%;
-    padding: 15px;
+    height: auto;
+    margin: 0;
+    padding: 20px;
     justify-content: space-between;
+}
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 1.8em;
+    h1{
+        margin: 0;
+        font-weight: 700;
+    }
+    h3{
+        font-weight: 400;
+        margin: 15px;
+        font-size: 0.8em;
+        width: 70%;
+        text-align: center;
 
-    #title {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 4em;
-        width: 50%;
-        font-size: 1.2em;
-        h1{
-            margin: 0;
-            font-weight: 700;
-        }
-        h3{
-            font-weight: 400;
-            margin: 15px;
-            font-size: 1em;
-            width: 70%;
-            text-align: center;
-
-        }
     }
 }
 
 #logo-principal {
-    width: 10%;
-    position: absolute;
+    width: 12%;
     top: 15px;
 }
 
-svg {
+#svg {
     padding: 0;
     margin: 0px;
-    fill: #007D5E;
-    width: 80%;
+    width: 80%;Z
     height: auto;
     position: relative;
     top: 0;
