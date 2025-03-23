@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: "Exo 2";
+    font-family: "Exo 2", arial, 'sans serif';
 }
 
 header {
@@ -193,4 +193,43 @@ footer {
     align-items: center;
     justify-content: space-between;
 
+}
+.voidfoot{
+    height: 20px;
+
+}
+.faqs{
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.questions{
+    width: 50%;
+    
+}
+.question{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.faqTitle{
+    color: rgb(0, 128, 96);
+    font-size: 1.7rem;
+}
+.marginlasthr{
+    padding-bottom: 30px;
+}
+.foot{
+    display: flex;
+    gap: 15px;
+    width: 50%;
+    justify-content: flex-end;
+    margin: 10px 0;
+    a{
+        color: rgb(0, 128, 96);
+        text-decoration: none;
+    }
 }
