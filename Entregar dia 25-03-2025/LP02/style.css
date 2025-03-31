@@ -11,9 +11,10 @@ secion{
     width: 50%;
 }
 header{
+    gap: 60px;
     background-color: rgb(230, 230, 230);
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     width: 100%;
 }
 .topH{
@@ -35,10 +36,31 @@ header{
 }
 .midH{
     display: flex;
-    flex-flow: row nowrap;
-    align-items:flex-start;
-
+    justify-content: center;
+    align-items: center;
 }
 .img{
-    max-height: 1%;
+    display: flex;
+    flex-flow: row nowrap;
+
+    #imgUm{
+        width: 250px;
+
+    }
+    #imgDois{
+        width: 70px;
+        margin-left: -40px;
+        margin-top: 110px;
+    }
+}
+.free-guide{
+
+
+
+
+    span{
+        color: rgb(108, 92, 255);
+        font-weight: 700;
+        font-size: 1.4rem;
+    }
 }
